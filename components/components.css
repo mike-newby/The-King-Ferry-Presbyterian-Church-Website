@@ -86,7 +86,23 @@
 #footer-div > p {
   color: #f5f5f5;
   font-size: calc( var(--footer-height) / 2.75 );
-  font-family: "Pridi", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   text-align: center;
+}
+
+button{
+  font-size: 14;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border-width: 0;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  /* text-shadow: black; */
+}
+
+button > a {
+  text-decoration: none;
+  color: black;
 }
